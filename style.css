@@ -1,0 +1,52 @@
+body{
+    font-family: Segoe UI;
+}
+.header{
+    background: #23232e;
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.header .logo{
+    width: 140px;
+}
+.header .heading{
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+.header .subheading{
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 420px;
+    margin: auto;
+}
+.header .scroll-down{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 10px 12px;
+    margin-top: 170px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
