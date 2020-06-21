@@ -1,5 +1,25 @@
+.heading{
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.text-light{
+    color: #fff;
+}
+.text-dark{
+    color: #464b4f;
+}
+
+.container{
+    max-width: 940px;
+    margin: auto;
+}
+
 body{
     font-family: Segoe UI;
+    margin: 0;
 }
 .header{
     background: #23232e;
@@ -10,12 +30,9 @@ body{
 }
 .header .logo{
     width: 140px;
+    margin-bottom: 70px;
 }
-.header .heading{
-    margin-top: 150px;
-    text-transform: uppercase;
-    font-size: 80px;
-}
+
 .header .subheading{
     font-size: 18px;
     line-height: 30px;
@@ -30,9 +47,59 @@ body{
     display: inline-block;
 }
 
+.about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about .big-info{
+    font-size: 30px;
+    line-height: 42px;
+    color: #464b4f;
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 860px;
+    
+}
+.about .heading{
+    text-align: center;
+}
 
+.row{
+    overflow: hidden;
+}
+.row .col-1-of-3{
+    width: 32.6667%;
+    margin-right: 1%;
+    float: left;
+    
+}
+.row .col-1-of-3:last-child{
+    margin-right: 0;
+}
 
-
+.my-work{
+    background: #23232e;
+}
+.my-work .mix-bar .nav .active{
+    border-bottom: 2px solid #7b77c9;
+}
+.image-content .subtitle{
+    color: #818baa;
+}
+.btn-custom{
+    background: #7b77c9;
+    color: #fff;
+    padding: 8px 30px;
+    transition: .2s;
+}
+.btn-custom:hover{
+    color: #fff;
+    transform: translateY(-5px) scale(1.1);
+}
 
 
 
