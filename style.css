@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .heading{
     margin-top: 80px;
     text-transform: uppercase;
@@ -17,6 +21,15 @@
     margin: auto;
 }
 
+.big-info{
+    font-size: 30px;
+    line-height: 42px;
+    color: #464b4f;
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 860px;
+    
+}
 body{
     font-family: Segoe UI;
     margin: 0;
@@ -55,15 +68,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-.about .big-info{
-    font-size: 30px;
-    line-height: 42px;
-    color: #464b4f;
-    text-align: center;
-    margin-bottom: 50px;
-    max-width: 860px;
-    
-}
+
 .about .heading{
     text-align: center;
 }
@@ -102,12 +107,45 @@ body{
 }
 
 
+.gallery{
+    padding-bottom: 80px;
+    background: url('images/background.png')
+}
+
+.subscription{
+    background: #23232e;
+    color: #fff;
+    padding: 250px 0;
+}
+
+.custom-container{
+    max-width: 600px;
+    margin: auto;
+}
+.subform .btn-custom-sub{
+    background: #7b77c9;
+    color: #fff;
+    padding: 14px 60px;
+    transition: .2s;
+    box-sizing: border-box;
+}
+.subform input[type="text"]{
+    width: 380px;
+    padding: 14px;
+}
+.subform input[type="text"]::placeholder{
+    color: #c8c8c8;
+}
 
 
-
-
-
-
+.footer{
+    background: url('images/background.png');
+    padding: 100px 0;
+}
+.social-nav li a{
+    color: #dbdbdb;
+    font-size: 32px;
+}
 
 
 
